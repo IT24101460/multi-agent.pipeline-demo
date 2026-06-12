@@ -1,6 +1,6 @@
 import json
 import asyncio
-from protocol import EnterprisePayload
+from BackEnd.protocol import EnterprisePayload
 
 class BandOrchestrationServer:
     def __init__(self):

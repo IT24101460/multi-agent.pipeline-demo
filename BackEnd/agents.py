@@ -1,6 +1,6 @@
 import os
 import asyncio
-from band_mesh import band_cloud_mesh
+from BackEnd.band_mesh import band_cloud_mesh
 
 class ClaudeAnalystAgent:
     def __init__(self, name="Claude-Finance-Expert"):

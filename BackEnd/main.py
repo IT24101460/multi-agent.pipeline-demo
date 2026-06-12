@@ -1,6 +1,6 @@
 import asyncio
-from band_mesh import band_cloud_mesh
-from agents import ClaudeAnalystAgent, GPTComplianceAgent, ExecutiveGuardAgent
+from BackEnd.band_mesh import band_cloud_mesh
+from BackEnd.agents import ClaudeAnalystAgent, GPTComplianceAgent, ExecutiveGuardAgent
 
 async def run_enterprise_pipeline():
     print("🚀 Starting Multi-Agent System on top of the Band Orchestration Layer...\n")

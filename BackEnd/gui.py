@@ -1,7 +1,7 @@
 import streamlit as st
 import asyncio
-from band_mesh import band_cloud_mesh
-from main import run_enterprise_pipeline
+from BackEnd.band_mesh import band_cloud_mesh
+from BackEnd.main import run_enterprise_pipeline
 
 st.title("🛡️ Enterprise Multi-Agent Audit Desk")
 
